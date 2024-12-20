@@ -1,0 +1,108 @@
+/* Stil sıfırlama */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Bədən üçün əsas stil */
+    body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: #f8f9fa;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #007bff;
+        }
+        .nav-links {
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+        }
+        .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        }
+        .cta-button {
+        padding: 0.5rem 1rem;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+            background-color: #f9fbfc;
+            }
+            .hero-content {
+            max-width: 50%;
+            }
+            .hero h1 {
+            font-size: 2.5rem;
+            color: #333;
+            }
+            .hero p {
+            font-size: 1.25rem;
+            margin: 1rem 0;
+            color: #555;
+            }
+            .btn-primary {
+            background-color: #007bff;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+margin-right: 1rem;
+cursor: pointer;
+}
+.btn-secondary {
+background-color: transparent;
+border: 1px solid #007bff;
+color: #007bff;
+padding: 0.75rem 1.5rem;
+border-radius: 5px;
+cursor: pointer;
+}
+.hero-image img {
+max-width: 100%;
+height: auto;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+padding: 2rem;
+background-color: #fff;
+}
+.feature {
+text-align: center;
+flex: 1;
+margin: 0 1rem;
+}
+.feature h3 {
+font-size: 1.5rem;
+color: #007bff;
+}
+.feature p {
+font-size: 1rem;
+color: #555;
+}
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    }
