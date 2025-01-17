@@ -1,0 +1,199 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+.navwrappper{
+    display: flex;
+    justify-content: space-between;
+}
+.absulute{
+    width: 41px;
+    height: 41px;
+    border-radius: 30px;
+    background-color: green;
+    position: absolute;
+   top: 30px; 
+   left: 80px;
+}
+.relative{
+    width: 15px;
+    height: 15px;
+    border-radius: 21px;
+    background-color: red;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+.div{
+    width: 1000px;
+    background-color: transparent; 
+}
+.nav{
+    list-style: none;
+    display: flex;
+    margin-left: 600px; 
+    gap: 30px; 
+}
+.links{
+    color: gray;
+    cursor: pointer;
+}
+.link1{
+    color: black !important;
+}
+.btn{
+    border: #FB8F1D 1px solid;
+    border-radius: 8px;
+    padding: 10px 40px; 
+    position: absolute;
+    left: 950px;
+    top: 15px;
+}
+.btn2{
+    border: white 1px solid;
+    border-radius: 8px;
+    padding: 10px 33px; 
+    background-color: #FB8F1D;
+    position: absolute;
+    left: 1100px;
+    top: 15px;
+}
+.h1{
+    width: 400px;
+    font-size: 70px;
+    margin-top: 360px;
+}
+.img{
+position: absolute;
+left: 700px;
+top: 100px;
+}
+.btn3{
+    top: 700px;
+    left: 100px;
+}
+.img2{
+    position: absolute;
+    top: 1000px;
+}
+.h2{
+    width: 481px;
+    position: absolute;
+    font-size: 60px;
+    top: 1000px;
+    left: 900px;
+}
+.p{
+    width: 450px;
+    position: absolute;
+    top: 1200px;
+    left: 900px;
+    font-size: 20px;
+    color: gray;
+}
+.btn4{
+    top: 1350px !important;
+    width: 150px;
+    left: 1000px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.h3{
+    position: absolute;
+    top: 1700px;
+    width: 1000px;
+    font-size: 50px;
+}
+.aa{
+    color: goldenrod;
+    position: absolute;
+    top: 1720px;
+    left: 1400px;
+    width: 100px;
+}
+.island{
+    position: absolute;
+    top: 1870px;
+    left: 10px;
+}
+.mountain{
+    position: absolute;
+    top: 1900px;
+left: 450px;}
+.river{
+    position: absolute;
+    top: 1900px;
+left: 850px;}
+.homes{
+    position: absolute;
+    top: 1900px;
+left: 1250px;}
+.rajaampat{
+    position: absolute;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 56px;
+    top: 2190px;
+    left: 90px;
+    background-color: white;
+    padding: 5px 1px;
+}
+.FanjingshanChina{
+    position: absolute;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 56px;
+    top: 2190px;
+    left: 450px;
+    background-color: white;
+    padding: 5px 1px;
+}
+.VeveySwitzerland{
+    position: absolute;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 56px;
+    top: 2190px;
+    left: 850px;
+    background-color: white;
+    padding: 5px 1px;
+}
+.SkadarMontenegro{
+    position: absolute;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 56px;
+    top: 2190px;
+    left: 1250px;
+    background-color: white;
+    padding: 5px 1px;
+}
+.h4{
+font-size: 50px;
+position: absolute;
+top: 2500px;
+width: 480px;
+left: 50px;
+}
+.p2{
+    position: absolute;
+top: 2650px;
+width: 450px;
+left: 50px;
+color: gray;
+}
+span{
+color: gray;
+}
+.btn5{
+    position: absolute;
+    top: 2730px;
+    left: 50px;
+}
+.baclogo{
+    position: absolute;
+    top: 2400px;
+    left: 800px;
+}
