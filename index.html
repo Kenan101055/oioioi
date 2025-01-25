@@ -3,32 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./Assets/styles/style.css">
-    <title>Predium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <script src="https://cdn.tailwindcss.com"></script>
+    <title>Roblox</title>
 </head>
-<body>
-    <header class="header">
-        <nav class="navwrapper">
-            <div class="img"><img src="./Assets/imgs/Ezezezzezezeezez.png" width="112" height="17" alt=""></div>
-            <ul class="nav">
-                <li class="links">Software</li>
-                <li class="links">Preduim KI</li>
-                <li class="links">Lösungen</li>
-                <li class="links">Unternehmen<i class="fa-solid i1 fa-angle-up"></i></li>
-                <li class="links">Resourcen <i class="fa-solid i1 fa-angle-up"></i></li>
-                <li class="links">DE <i class="fa-solid i1 fa-angle-up"></i></li>
-            </ul>
-            <button class="btn1">Login</button>
-            <button class="btn2">Austausch vereinbaren</button>
-       <h1 class="h1">Steigern Sie den Wert Ihrer Immobilien nachhaltig</h1>
-    <p class="p">Mit der digitalen Lösung von Predium erkennen Sie die Risiken und Potenziale Ihrer Immobilien auf einen Blick. Wir zeigen Ihnen, mit welchen Maßnahmen Sie Ihre Klima- und Finanzziele kosteneffizient erreichen.</p>    
-    <button class="btn2 kontactsieuns">Kontact Sie Uns <i class="i2 fa-solid fa-arrow-right"></i></button>
-<img class="img1" src="./Assets/imgs/6745d30771c962987a58379b_Frame 316125303.png" alt="">
-<img class="img2" src="./Assets/imgs/66fc7032857553c27f5a7452_Group 176782 (1).avif" alt="">
-<img class="img3" src="./Assets/imgs/6745d3e06776485bf1aedf0f_Frame 427320194.png" alt="">
-</nav>
- </header>
-    
+<body class="bg-[black]">
+    <header class="my-0 flex bg-[#232527] text-white w-[1005] h-[36px]">
+        <nav>
+            <div class="w-28 h-8 flex items-center gap-[100px] justify-between">
+                <h1 class="ml-[10px] text-[30px] font-extrabold flex">R&nbsp;&nbsp;&nbsp;<img class="absolute left-[30px] top-[4px] h-7 w-7" src="./asstes/imgs/robloxlogo.svg" alt="">BLOX</h1>
+                <ul class="flex font-medium gap-[150px]">
+                    <li class=" mr[9px]">Charts</li>
+                    <li class=" mr[9px]">Marketpalce</li>
+                    <li class=" mr[9px]">Create</li>
+                    <li class=" mr[9px]">Robux</li>
+                </ul>
+                <label id="text" for="text"  ></label>
+                <input placeholder="&nbsp;Search" class="w-[px] h-[28px] bg-[black] rounded-md text-[white]" type="text">
+            <div><button class="bg-[green] text-[white] rounded w-[60px] h-[30px] absolute right-[60px] top-[2px]">Sign up</button></div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="w-[400px] h-[500px] ml-[800px] mt-[100px] bg-[#232527] flex flex-col hover:skew-y-[170deg]"><br>
+            <h1 class="text-[white] ml-[50px] font-extrabold text-[30px]">Log in to Roblox</h1><br>
+            <label for="title"></label>
+            <input class="bg-[black] w-[370px] h-[38px] ml-[10px] rounded-xl text-[white]" placeholder="&nbsp;Username/Email/Phone" id="title" type="text">
+            <br>
+            <label for="pass"></label>
+            <input class="bg-[black] w-[370px] h-[38px] ml-[10px] rounded-xl text-[white]" placeholder="&nbsp;Password" id="pass" type="password"><br>
+            <button class="w-[370px] h-[38px] border-white border text-[white] rounded-xl ml-[10px]">Log in</button><br>
+            <p class="text-[white] ml-[80px]">Forgot Password or Username?</p><br><hr><br>
+            <button class="w-[370px] h-[38px] border-white border text-[white] rounded-xl ml-[10px]">E-mail One-time code</button><br>
+            <button class="w-[370px] h-[38px] border-white border text-[white] rounded-xl ml-[10px]">Use another device</button>
+            <br>
+            <p class="text-[white] ml-[80px]">Don't have an account?Sign Up</p><br>
+        </div>
+    </section>
+    <section >
+        <div class="bg-[white] text-[black] w-[400px] h-[500px] mt-[-500px] rounded-xl hover:skew-y-[170deg] ">
+        <img src="./asstes/imgs/fisch.webp" class="w-[400px] rounded-xl" alt="">
+        <h1 class="text-[40px] font-extrabold ml-[60px]">Fisch Game</h1><br>
+        <p class="text-[20px] w-[360px] ml-[20px]">This is fishing game.You can catch a lot of fishes here.You can get new rods and travel to other somewhere</p>
+        <label for="pass"></label><br>
+        <input class="bg-[white] w-[370px] h-[38px] text-[black] ml-[10px] rounded-xl border-[0] " placeholder="&nbsp;Comment here" id="pass" type="password"><br>
+    </div>
+</section>
+<div class="flex "><section>
+        <div class="bg-[white] text-[black] w-[400px] h-[300px] mt-[200px] rounded-xl hover:skew-y-[170deg]">
+        <img src="./asstes/imgs/Robux_Image.webp" class="w-[100px] ml-[150px] rounded-xl" alt="">
+        <h1 class="text-[40px] font-extrabold ml-[60px]">100 Robux</h1><br>
+        <div class="flex items-baseline">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p class="text-[30px] font-bold">50$</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class=" text-[30px] font-bold border border-[gray] rounded-md p-[10px] hover:text-[white] hover:bg-[black]">Buy</button>
+    </div>
+</div>
+</section>
+<section>
+        <div class="bg-[white] text-[black] w-[400px] h-[300px] mt-[200px] rounded-xl ml-[300px] hover:skew-y-[170deg]">
+        <img src="./asstes/imgs/Robux_Image.webp" class="w-[100px] ml-[150px] rounded-xl" alt="">
+        <h1 class="text-[40px] font-extrabold ml-[60px]">100 Robux</h1><br>
+        <div class="flex items-baseline">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="text-[30px] font-bold">50$</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class=" text-[30px] font-bold border border-[gray] rounded-md p-[10px] hover:text-[white] hover:bg-[black]">Buy</button>
+    </div>
+    </div>
+</section>
+<section>
+        <div class="bg-[white] text-[black] w-[400px] h-[300px] mt-[200px] rounded-xl ml-[300px] hover:skew-y-[170deg]">
+        <img src="./asstes/imgs/Robux_Image.webp" class="w-[100px] ml-[150px] rounded-xl" alt="">
+        <h1 class="text-[40px] font-extrabold ml-[60px]">100 Robux</h1><br>
+        <div class="flex items-baseline">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="text-[30px] font-bold">50$</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class=" text-[30px] font-bold border border-[gray] rounded-md p-[10px] hover:text-[white] hover:bg-[black]">Buy</button>
+    </div>
+    </div>
+</section></div>
 </body>
 </html>
