@@ -3,41 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./whenyoupresscontinue.html">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
 <body>
-    <header class="bg-[black] w-[100%] h-[660px] m-[0] font-['Poppins']">
-     <p class="text-white absolute left-[600px]  text-2xl">Sign up</p>
+    <header class="container px-20 bg-blue-600">
+        <div class="bg-blue-600 w-[100%] p-4 container">
+            <p class="text-white text-xl font-bold">My Portfolio</p>
+        </div>
+    </header>
 
-     <p class="absolute left-[500px] text-[white] top-[50px] text-[15px]">First Name*</p>
-     <label for="James" ></label>
-     <input placeholder="James" id="James" type="text" class="placeholder:text-[#FEF513] w-[400px] left-[450px] top-[80px] absolute border-[white] border bg-[black] text-[#FEF513] p-[15px] text-[14px] rounded-[25px]">
+    <nav class="bg-gray-200">
+        <div class="container">
+            <ul class="flex mx-[550px]">
+                <li class="hover:bg-gray-300 text-[10px] p-1 px-3"><a href="#">About</a></li>
+                <li class="hover:bg-gray-300 text-[10px] p-1 px-3"><a href="#">Projects</a></li>
+                <li class="hover:bg-gray-300 text-[10px] p-1 px-3"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-     <p class="absolute left-[500px] text-[white]  text-[15px] top-[140px]">Last Name*</p>
-     <label for="Kay"></label>
-     <input placeholder="Kay" id="Kay" type="text" class="placeholder:text-[#FEF513] w-[400px] left-[450px] top-[180px] absolute border-[white] border bg-[black] text-[#FEF513] p-[15px] text-[14px] rounded-[25px]">
+<section>
+    <div class="ml-[150px] mt-[20px]">
+        <h1 class="text-xl font-bold">About me</h1><br>
+        <p class="text-[10px]">Hello! I'm [You],A passionate developer/designer with a love for creating clean and not responsive websites.This is my personal portfolio where you can see some of my projects</p>
+    </div>
+</section>
+<br><br>
+    <main class="ml-[150px]">
+        <div>
+            <h1 class="text-xl font-bold">Projects</h1>
+        </div>
+<br>
+        <div class="flex-wrap flex">
+            <div class="px-4 shadow flex rounded w-[300px]">
+                <div class="p-2">
+                <h1 class="text-lg font-bold">Project 1</h1>
+                <p class="text-[10px]">Short description of Project 1</p>
+                </div>
+            </div>
+            <div class="px-4 shadow flex rounded  w-[300px]">
+                <div class="p-2">
+                <h1 class="text-lg font-bold">Project 2</h1>
+                <p class="text-[10px]">Short description of Project 2</p>
+                </div>
+            </div>
+            <div class="px-4 shadow flex rounded  w-[300px]">
+                <div class="p-2">
+                <h1 class="text-lg font-bold">Project 3</h1>
+                <p class="text-[10px]">Short description of Project 3</p>    
+                </div>
+            </div>
+            <div class="px-4 shadow flex rounded  w-[300px]">
+                <div class="p-2">
+                <h1 class="text-lg font-bold">Project 4</h1>
+                <p class="text-[10px]">Short description of Project 4</p>
+                </div>
+            </div>
+            <div class="px-4 shadow flex rounded  w-[300px]">
+                <div class="p-2">
+                <h1 class="text-lg font-bold">Project 5</h1>
+                <p class="text-[10px]">Short description of Project 5</p>
+                </div>
+            </div>
+            <div class="px-4 shadow flex rounded  w-[300px]">
+                <div class="p-2">
+                <h1 class="text-lg font-bold">Project 6</h1>
+                <p class="text-[10px]">Short description of Project 6</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-     <p class="absolute left-[500px] text-[white] top-[240px] text-[15px]">Email*</p>
-     <label for="example@gmail.com"></label>
-     <input placeholder="example@gmail.com" id="example@gmail.com" type="email" class="placeholder:text-[#FEF513] w-[400px] left-[450px] top-[270px] absolute border-[white] border bg-[black] text-[#FEF513] p-[15px] text-[14px] rounded-[25px]">
-
-     <p class="absolute left-[480px] text-[white] top-[330px] text-[15px]">Password*</p>
-     <label for="At least 8 characters"></label>
-     <input placeholder="At least 8 characters" id="At least 8 characters" type="password" class="placeholder:text-[#FEF513] w-[400px] left-[450px] top-[360px] absolute border-[white] border bg-[black] text-[#FEF513] p-[15px] text-[14px] rounded-[25px]">
-
-     <p class="absolute left-[470px] top-[430px] text-[white]">By creating an account or signing you agree to <br> our Terms and Conditions and Privacy Policy.</p>
-     <button class="w-[300px] h-[50px] absolute top-[480px] left-[500px] bg-[#FEF513] font-bold rounded-[25px]"><a href="./whenyoupresscontinue.html">Continue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-arrow-right bg-[#FEF513] font-bold rounded-[25px] drop-shadow-[2px] w-[55] h-[55]"></i></a></button>
-    <p class="absolute top-[550px] text-[white] left-[490px]">-------------Or register With-------------</p>
-    <button class="absolute w-[100px] h-[50px] rounded-[25px] border border-[white] left-[400px] top-[580px]"><i class="text-[blue] fa-brands fa-facebook-f"></i></button>
-    <button class="absolute w-[100px] h-[50px] rounded-[25px] border border-[white] left-[600px] top-[580px]"><img src="./assets/imgs/959d924712c49e7f93df5f5053ddaf57.png" width="50px" height="50px" ></button>
-    <button class="absolute w-[100px] h-[50px] rounded-[25px] border border-[white] left-[800px] top-[580px]"><i class=" text-[white] fa-brands fa-apple"></i></button>
-    <p class="absolute top-[600px] left-[500px] top-[630px] text-[white]">Already have an account? Log in</p>
-</header>
+    <section>
+        <div class="ml-[150px] mt-[20px]">
+            <h1 class="text-xl font-bold">Contact</h1>
+            <p class="text-[10px]">If you'd like to get in touch,please email me at you-email@example.com</p>
+        </div>
+    </section>
+<br><br><br><br><br>
+    <footer class="bg-blue-600 w-[100%] p-6 container flex justify-center h-[64px]">
+        <p class="text-[10px] text-white">© 2025 Myportfolio.All Rights reserved.</p>
+    </footer>
 </body>
 </html>
