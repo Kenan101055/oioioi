@@ -1,89 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Website Template</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="container px-20 bg-blue-600">
-        <div class="bg-blue-600 w-[100%] p-4 container">
-            <p class="text-white text-xl font-bold">My Portfolio</p>
-        </div>
-    </header>
-
-    <nav class="bg-gray-200">
-        <div class="container">
-            <ul class="flex mx-[550px]">
-                <li class="hover:bg-gray-300 text-[10px] p-1 px-3"><a href="#">About</a></li>
-                <li class="hover:bg-gray-300 text-[10px] p-1 px-3"><a href="#">Projects</a></li>
-                <li class="hover:bg-gray-300 text-[10px] p-1 px-3"><a href="#">Contact</a></li>
-            </ul>
-        </div>
+  <header>
+    <h1>My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-
-<section>
-    <div class="ml-[150px] mt-[20px]">
-        <h1 class="text-xl font-bold">About me</h1><br>
-        <p class="text-[10px]">Hello! I'm [You],A passionate developer/designer with a love for creating clean and not responsive websites.This is my personal portfolio where you can see some of my projects</p>
-    </div>
-</section>
-<br><br>
-    <main class="ml-[150px]">
-        <div>
-            <h1 class="text-xl font-bold">Projects</h1>
-        </div>
-<br>
-        <div class="flex-wrap flex">
-            <div class="px-4 shadow flex rounded w-[300px]">
-                <div class="p-2">
-                <h1 class="text-lg font-bold">Project 1</h1>
-                <p class="text-[10px]">Short description of Project 1</p>
-                </div>
-            </div>
-            <div class="px-4 shadow flex rounded  w-[300px]">
-                <div class="p-2">
-                <h1 class="text-lg font-bold">Project 2</h1>
-                <p class="text-[10px]">Short description of Project 2</p>
-                </div>
-            </div>
-            <div class="px-4 shadow flex rounded  w-[300px]">
-                <div class="p-2">
-                <h1 class="text-lg font-bold">Project 3</h1>
-                <p class="text-[10px]">Short description of Project 3</p>    
-                </div>
-            </div>
-            <div class="px-4 shadow flex rounded  w-[300px]">
-                <div class="p-2">
-                <h1 class="text-lg font-bold">Project 4</h1>
-                <p class="text-[10px]">Short description of Project 4</p>
-                </div>
-            </div>
-            <div class="px-4 shadow flex rounded  w-[300px]">
-                <div class="p-2">
-                <h1 class="text-lg font-bold">Project 5</h1>
-                <p class="text-[10px]">Short description of Project 5</p>
-                </div>
-            </div>
-            <div class="px-4 shadow flex rounded  w-[300px]">
-                <div class="p-2">
-                <h1 class="text-lg font-bold">Project 6</h1>
-                <p class="text-[10px]">Short description of Project 6</p>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <section>
-        <div class="ml-[150px] mt-[20px]">
-            <h1 class="text-xl font-bold">Contact</h1>
-            <p class="text-[10px]">If you'd like to get in touch,please email me at you-email@example.com</p>
-        </div>
+  </header>
+  
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <p>This is a sample website template built with HTML and CSS. It’s structured in a way that makes it easy to convert to SCSS.</p>
     </section>
-<br><br><br><br><br>
-    <footer class="bg-blue-600 w-[100%] p-6 container flex justify-center h-[64px]">
-        <p class="text-[10px] text-white">© 2025 Myportfolio.All Rights reserved.</p>
-    </footer>
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Learn more about our company and what we offer.</p>
+    </section>
+    
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Service One</h3>
+          <p>Details about service one.</p>
+        </div>
+        <div class="card">
+          <h3>Service Two</h3>
+          <p>Details about service two.</p>
+        </div>
+        <div class="card">
+          <h3>Service Three</h3>
+          <p>Details about service three.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
 </body>
 </html>

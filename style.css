@@ -1,140 +1,124 @@
-body{
-    background-image: url('../imgs/672a4693d596cffa0a9e7036_predium-still-1-1-1-1-672a464f43ba6.webp');
-    background-size: cover;
-}
-
-.header{
-    display: flex;
-justify-content: space-between;
-    align-items: center;
-}
-.navwrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #1a1f4c;
-    gap: 17px;
-    line-height:24px;
-    padding: 31px 0px;
-    width: 1279px;
-    height: 74px;
-    background-color: transparent;
-    margin-left: 50px;
-}
-.nav{
-     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 800px;
-    width: 679px;
-    height: 40px;
-    color:#1a1f4c;
-    list-style: none;
-    background-color: white;
-}
-.hero{
- background-color: aqua;
-}
-.btn1{
-    background-color:rgb(100% 100% 100%);
-    border-radius:1600px;
-    border-style:solid;
-    color:rgb(10% 12% 30%);
-    font-size:14px;
-    font-weight:500;
-    line-height:14px;
-    padding:12px 16px;
-    text-align:center;
-border-color: white;}
-.btn2{
-    background-color: rgb(31% 20% 98%);
-    border-color:rgb(31% 20% 98%);
-    border-radius:1600px;
-    border-style:solid;
-    font-size:14px;
-    font-weight:500;
-    padding:12px 16px;
-    text-align:center;
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #3498db;
     color: white;
-}.btn1:hover{
-    background-color:rgb(0 0 100%);
-    border-radius:1600px;
-    border-color: white;
-    border-style:solid;
-    color:rgb(10% 12% 30%);
-    font-size:14px;
-    font-weight:500;
-    line-height:14px;
-    padding:12px 16px;
-    text-align:center;
-}
-.h1{
-color:#1a1f4c;
-font-size:68px;
-font-weight:600;
-position: absolute;
-top: 100px;
-width: 500px;
-line-height: 70px;
-}
-.p{
- color:#1a1f4c; 
- font-size: 20px;
- line-height: 30px; 
- width: 520px;
- position: absolute;
- top: 420px; 
-}.btn2:hover{
-    background-color: rgb(100% 100% 100%);
-    border-color:rgb(100% 100% 100%);
-    border-radius:1600px;
-    border-style:solid;
-    font-size:14px;
-    font-weight:500;
-    padding:12px 16px;
-    text-align:center;
-    color: blue;
-}
-.kontactsieuns{
-    position: absolute;
-    top: 590px;
-    width: 280px;
-height: 58px;
-font-size: 20px;
-padding: 10px;
-}
-.kontactsieuns:hover{
-    position: absolute;
-    top: 590px;
-    width: 280px;
-height: 58px;
-font-size: 20px;
-padding: 10px;
-}
-.i2{
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    color: #3498db;
+  }
+  
+  /* Cards */
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
     background-color: white;
-    color: #1a1f4c;
-    border-radius: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #3498db;
+  }
+  
+  /* Contact Form */
+  form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
     padding: 10px;
-}
-.img1{
-    width: 300px;
-    height: 90px;
-    position: absolute;
-    top: 200px;
-    right: 40px;
-}
-.img2{
-    width: 391px;
-    height: 180px;
-    position: absolute;
-    top: 300px;
-    right: 200px;
-}
-.img3{
-    width: 391px;
-    height: 112px;
-    position: absolute;
-    top: 500px;
-    right: 200px;
-}
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
