@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-[#d9d9d9]">
+    <header class="flex bg-[white] w-[250px] h-[890px]">
+        <nav class="m-[20px]">
+            <h1 class="text-[25px] font-bold">Dashboard</h1>
+            <ul class="flex flex-col mt-[30px]">
+                <li class="text-[gray] hover:text-[blue]"><a href="">Overview</a></li>
+                <li class="mt-[10px] text-[gray] hover:text-[blue]"><a href="">Profile</a></li>
+                <li class="mt-[10px] text-[gray] hover:text-[blue]"><a href="">Activity</a></li>
+                <li class="mt-[10px] text-[gray] hover:text-[blue]"><a href="">Statistics</a></li>
+                <li class="mt-[10px] text-[gray] hover:text-[blue]"><a href="">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="flex items-baseline">
+        <div>
+            <h1 class="text-[30px] font-bold ml-[300px] mt-[-870px] flex">User Dashboard</h1>
+            <label for="trxt"></label>
+            <input id="trxt" type="text" placeholder="Search..." class="flex border border-[gray] bg-[white] p-[8px] rounded mt-[-40px] ml-[950px]">
+            <img src="./download.jpeg" class="w-[50px] h-[50px] mt-[-45px] flex ml-[1160px]" alt="" style="clip-path: circle(50% at 50% 50%);">
+            <p class="mt-[-38px] flex ml-[1230px]">John Smith</p>
+        </div>
+    </section>
+    
+    <section> 
+        <div class=" text-[gray] bg-[white] w-[500px] absolute top-[100px] rounded-xl left-[280px] p-[20px]">
+            <div class="flex"><img class="w-[70px] h-[70px]" src="./download.jpeg" style="clip-path: circle(50% at 50% 50%);" alt="">
+            <div class="p-[10px]"><h1 class="text-[20px] font-bold text-black">John Smith</h1>
+            <p>Senior Developer</p></div></div>
+            <br>
+            <p><span class="font-bold">Email:</span> john.smith@example.com</p>
+            <p><span class="font-bold">Phone:</span> +1 (555) 123-4567</p>
+            <p><span class="font-bold">Address:</span> 1234 Main St, Anytown, USA</p>
+        </div>
+
+        <div class=" text-[gray] bg-[white] w-[500px] absolute top-[100px] rounded-xl left-[800px] p-[20px]">
+            <h1 class="text-[20px] font-bold text-black">Account Statistics</h1>
+            <p class="mt-[10px]"><span class="font-bold text-[black]">Posts:</span> 120</p>
+            <p class="mt-[10px]"><span class="font-bold text-[black]">Followers:</span> 3,500</p>
+            <p class="mt-[10px]"><span class="font-bold text-[black]">Following:</span> 180</p>
+            <p class="mt-[10px]"><span class="font-bold text-[black]">Likes:</span> 2,400</p>
+        </div>
+
+        <div class="text-[gray] h-[250px] bg-[white] w-[1000px] flex flex-col rounded-xl p-[20px] ml-[280px] mt-[-550px]">
+            <h1 class="text-[20px] font-bold text-[black]">Additional Information</h1>
+            <div class="mt-[50px]">
+            <p class="mt-[10px]"><span class="font-bold">Date of Birth:</span> Jan 15, 1985</p>
+            <p class="mt-[10px]"><span class="font-bold">Join Date:</span> Jan 15, 1985</p>
+            <p class="mt-[10px]"><span class="font-bold">Language:</span> Jan 15, 1985</p>
+            </div>
+            <div class="ml-[250px] mt-[-100px]">   
+            <p class="mt-[10px]"><span class="font-bold">Gender:</span> Jan 15, 1985</p>
+            <p class="mt-[10px]"><span class="font-bold">Country:</span> Jan 15, 1985</p>
+            <p class="mt-[10px]"><span class="font-bold">Timezone:</span> Jan 15, 1985</p>
+            </div>
+            <div class="mt-[-100px] ml-[500px]">
+            <p class=""><span class="font-bold">Membership:</span> Jan 15, 1985</p>
+            <p class=""><span class="font-bold">City:</span> Jan 15, 1985</p>
+            </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow w-[1000px] ml-[280px] mt-[10px]">
+            <h1 class="text-xl font-bold mb-4">Recent Activity</h3>
+            <div class="flex flex-col">
+              <div class="flex items-center justify-between">
+                <div>
+                  <p class="text-gray-700 font-semibold">Logged In</p>
+                  <p class="text-gray-500 text-sm">March 25, 2025 10:15 AM</p>
+                </div>
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">Success</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p class="text-gray-700 font-semibold">Updated Profile</p>
+                  <p class="text-gray-500 text-sm">March 24, 2025 04:20 PM</p>
+                </div>
+                <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">Info</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p class="text-gray-700 font-semibold">Password Changed</p>
+                  <p class="text-gray-500 text-sm">March 23, 2025 02:00 PM</p>
+                </div>
+                <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm">Warning</span>
+              </div>
+              <div class="flex items-center justify-between">
+                <div>
+                  <p class="text-gray-700 font-semibold">Logged Out</p>
+                  <p class="text-gray-500 text-sm">March 22, 2025 06:45 PM</p>
+                </div>
+                <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm">Error</span>
+              </div>
+            </div>
+          </div>
+    </section>
+</body>
+</html>
