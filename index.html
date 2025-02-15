@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Website Template</title>
-  <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
 </head>
 <body>
-  <header>
-    <h1>My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <header class="w-[100%] fixed">
+    <nav class="flex justify-around pl-[100px] py-[10px] items-center shadow xl:text-[20px] xl:p-[20px]">
+        <h1 class="text-[#003C71] font-bold"><i class="fa-solid fa-house-chimney"></i>VacationRenter</h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <div class="shadow h-[50px] xl:h-[70px] flex justify-between text-[10px] xl:text-[20px] text-[gray] px-[20px] rounded-xl items-center gap-[50px]">
+        <p class="flex flex-col"><span class="text-black font-bold"> Destination </span>
+            9VHP+2W9, Baku, Azerbaijan
+        </p>
+        <p class="flex flex-col">
+           Add Dates 
+        </p>
+        <p class="flex flex-col items-center">
+           <span class="text-black font-bold "> Guests </span>
+           <span>1</span>
+        </p>
+        </div>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <div class="flex justify-between items-center">
+
+            <div class="p-[10px] hover:bg-gray-100 flex justify-between rounded">
+            <i class="fa-solid fa-globe"></i> 
+            <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            
+            <div class="p-[10px] hover:bg-gray-100 flex justify-between rounded">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        
+
+        <button class="p-[10px] hover:bg-gray-100 text-[10px] rounded xl:text-[20px] xl:p-[15px]">Login</button>
+        <button class="p-[10px] hover:bg-gray-100 text-[10px] rounded xl:text-[20px] xl:p-[15px]">Sign up</button>
+    </div>
     </nav>
   </header>
-  
-  <main>
-    <section id="home">
-      <h2>Welcome</h2>
-      <p>This is a sample website template built with HTML and CSS. It’s structured in a way that makes it easy to convert to SCSS.</p>
-    </section>
-    
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Learn more about our company and what we offer.</p>
-    </section>
-    
-    <section id="services">
-      <h2>Our Services</h2>
-      <div class="card-container">
-        <div class="card">
-          <h3>Service One</h3>
-          <p>Details about service one.</p>
-        </div>
-        <div class="card">
-          <h3>Service Two</h3>
-          <p>Details about service two.</p>
-        </div>
-        <div class="card">
-          <h3>Service Three</h3>
-          <p>Details about service three.</p>
-        </div>
-      </div>
-    </section>
-    
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        
-        <button type="submit">Send</button>
-      </form>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2025 My Website</p>
-  </footer>
+
+  <section class="w-[100%] fixed pt-[70px] xl:pt-[100px]">
+    <div class="flex justify-between py-[10px] px-[10px] items-center shadow  xl:text-[20px] xl:p-[20px]">
+    <button class="px-[10px] py-[5px] xl:py-[10px] hover:bg-blue-100 hover:border-white text-[10px] rounded-xl xl:text-[15px] xl:px-[15px] border">More Filters &nbsp<i class="fa-solid fa-chevron-down"></i></button>
+    <ul class="flex gap-[10px] mr-auto ml-[100px]">
+        <li class="text-[10px] border-black border hover:bg-blue-100 hover:border-white rounded flex items-center justify-between xl:text-[20px]"><img src="./house.webp" class="rouned xl:w-[90px] xl:h-[60px]" width="50px" height="60px" alt="">Hostel</li>
+        <li class="text-[10px] border-black border hover:bg-blue-100 hover:border-white rounded flex items-center justify-between xl:text-[20px]"><img src="./house.webp" class="rouned xl:w-[90px] xl:h-[60px]" width="50px" height="60px" alt="">Hostel</li>
+        <li class="text-[10px] border-black border hover:bg-blue-100 hover:border-white rounded flex items-center justify-between xl:text-[20px]"><img src="./house.webp" class="rouned xl:w-[90px] xl:h-[60px]" width="50px" height="60px" alt="">Hostel</li>
+        <li class="text-[10px] border-black border hover:bg-blue-100 hover:border-white rounded flex items-center justify-between xl:text-[20px]"><img src="./house.webp" class="rouned xl:w-[90px] xl:h-[60px]" width="50px" height="60px" alt="">Hostel</li>
+        <li class="text-[10px] border-black border hover:bg-blue-100 hover:border-white rounded flex items-center justify-between xl:text-[20px]"><img src="./house.webp" class="rouned xl:w-[90px] xl:h-[60px]" width="50px" height="60px" alt="">Hostel</li>
+        <li class="text-[10px] border-black border hover:bg-blue-100 hover:border-white rounded flex items-center justify-between xl:text-[20px]"><img src="./house.webp" class="rouned xl:w-[90px] xl:h-[60px]" width="50px" height="60px" alt="">Hostel</li>
+    </ul>
+    <button class="px-[10px] py-[5px] xl:py-[10px] bg-blue-900 hover:bg-[darkblue] text-[white] text-[10px] rounded xl:text-[15px] xl:px-[15px]">Show Map    </button>
+</div>
+  </section>
+
+  <section>
+    <ul class="flex">
+        <li>
+            <img src="./allhotels.webp" class=""  alt="">
+            <div></div>
+        </li>
+        <li>
+            <img src="./allrvs.webp" class="" alt="">
+            <div></div>
+        </li>
+        <li>
+            <img src="./allvacationrentals.webp" class="" alt="">
+            <div></div>
+        </li>
+        <li>
+            <img src="./apartmentcondos.webp" class="" alt="">
+            <div></div>
+        </li>
+        <li>
+            <img src="./apartmenthotel.webp" class="" alt="">
+            <div></div>
+        </li>
+    </ul>
+  </section>
 </body>
 </html>
