@@ -1,0 +1,54 @@
+import { NativeSelect, Flex, Input, Button } from '@chakra-ui/react'
+import './App.css'
+
+function App() {
+const isDisabled =()=>{
+const form1 = document.getElementById('1')
+const form2 = document.getElementById('2')
+const button = document.getElementById('3') 
+if(!form1 || !form2){
+  Button.style.flex = 'hidden'
+}
+}
+  return (
+    <>
+      <Flex style={{alignItems: 'center' , flexDirection: 'column',border: '1px solid white',padding: '20px',paddingRight: '80px',paddingLeft: '80px'}}>
+    <Flex style={{alignItems: 'center' , flexDirection: 'column',border: '1px solid white',padding: '20px',paddingRight: '40px',paddingLeft: '40px'}}>
+      <Flex>Mission Name</Flex>   <br />
+      <Input id='1'  placeholder='Enter Mission Name...'/>
+      </Flex><br /><br />
+      <Flex style={{alignItems: 'center' , flexDirection: 'column',border: '1px solid white',padding: '20px',paddingRight: '40px',paddingLeft: '40px' }}>
+      <Flex>Destination Point</Flex>   <br />
+      <NativeSelect.Root style={{border: '1px solid white'}}>
+  <NativeSelect.Field>
+    <option value="1">Mars</option>
+    <option value="2">Titan</option>
+    <option value="3">Europe</option>
+    <option value="4">Kepler-186f</option>
+    <option value="5">TRAPPIST-1e</option>
+  </NativeSelect.Field>
+  <NativeSelect.Indicator />
+</NativeSelect.Root>
+      </Flex><br /><br />
+      <Flex style={{alignItems: 'center' , flexDirection: 'column',border: '1px solid white',padding: '20px'}}>
+      <Flex>Date</Flex>   <br />
+      <Input id='2' type='date'  placeholder='Enter Date...'/>
+      </Flex><br /><br />
+      <Flex style={{alignItems: 'center' , flexDirection: 'column',border: '1px solid white',padding: '20px'}}>
+      <Flex>Mission type</Flex>   <br />
+      <NativeSelect.Root style={{border: '1px solid white'}}>
+  <NativeSelect.Field>
+    <option value="1">Reconnaissance</option>
+    <option value="2">Supply</option>
+    <option value="3">Settlement</option>
+  </NativeSelect.Field>
+  <NativeSelect.Indicator />
+</NativeSelect.Root>
+      </Flex>
+      </Flex><br /><br />
+      <Button id='3' color={'white'}>Next</Button>
+      </>
+  )
+}
+
+export default App;
